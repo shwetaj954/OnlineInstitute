@@ -158,11 +158,11 @@ else if(isset($_GET['openupdate2']))
        echo"Not Updateded... " . $conn->error;
     }
 }
- else if(isset($_GET['coradelete']))
+ else if(isset($_GET['coradelete2']))
 {
 
    
-  $coraid=$_REQUEST['coraid'];
+  $coraid=$_REQUEST['coraid3'];
  
 
   $sql1 = "DELETE FROM $tblcourse WHERE corid= '" .$coraid. "'";

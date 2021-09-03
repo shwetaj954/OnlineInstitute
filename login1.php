@@ -2,7 +2,7 @@
 include 'includes/header.php';
 require_once('includes/forconn.php');
       
-session_start();
+//session_start();
 $useremail ='';
 $userpassword = '';
 $login_status = 2;
@@ -27,9 +27,7 @@ if (!empty($username)) {
         //It is a valid user. Need to store the user in Session Variables
      //   session_start();
         $_SESSION['login'] = $useremail;
-        $result_row = $result->fetch_assoc();
-
-        
+        $result_row = $result->fetch_assoc();        
         $_SESSION['role'] = $result_row['role'];
         $_SESSION['name'] = $result_row['username'];
         $_SESSION['id'] = $result_row['user_id'];
@@ -37,14 +35,12 @@ if (!empty($username)) {
         //update the login status
      //   $a=$login_status;
         $login_status=1;
-        header( "Location: login.php?ls=$login_status&email=$useremail");
+       
       }
-        
     
-
-
-
+    
 }
+header( "Location: login.php?ls=$login_status&email=$useremail");
 $conn->close();
 
 ?>

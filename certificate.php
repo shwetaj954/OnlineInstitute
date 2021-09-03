@@ -52,6 +52,7 @@ if (isset($_SESSION['id'])) {
  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
+	
 <br>
 
 <div class="row-col-12">

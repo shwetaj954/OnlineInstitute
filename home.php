@@ -25,7 +25,7 @@ require_once ('includes/header.php');
         <h1 style="text-shadow: 3px 3px 1px skyblue;" class="text-primary">Welcome to My S.J Online Institute</h1>
         <p class="text-dark fw-bold fs-4">Enrollment is Now open for 2021-2022</p>
 
-        <button type="button" class="btn btn-primary btn-lg">Sign Up Today</button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="register1.php" class="text-light" style="text-decoration: none;"> Sign Up Today</a></button>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
@@ -33,7 +33,7 @@ require_once ('includes/header.php');
       <div class="carousel-caption d-md-block text-primary">
         <h2 style="text-shadow: 2px 2px skyblue;">Pre-Primary & Primary Stage(LKG To V)</h2>
         <p class="fs-4 fw-bold">Let's Start your School. Enrollment is Now open for 2021-2022</p>
-      <button type="button" class="btn btn-primary btn-lg">Sign Up Today</button>
+      <button type="button" class="btn btn-primary btn-lg"><a href="register1.php" class="text-light" style="text-decoration: none;"> Sign Up Today</a></button>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
@@ -41,7 +41,7 @@ require_once ('includes/header.php');
       <div class="carousel-caption d-md-block text-primary">
         <h2 style="text-shadow: 2px 2px skyblue;">Middle Stage(VI To VII)</h2>
         <p class="fs-4 fw-bold">Let's Start your School. Enrollment is Now open for 2021-2022.</p>
-        <button type="button" class="btn btn-primary btn-lg">Sign Up Today</button>
+       <button type="button" class="btn btn-primary btn-lg"><a href="register1.php" class="text-light" style="text-decoration: none;"> Sign Up Today</a></button>
       </div>
     </div>
   
@@ -50,7 +50,7 @@ require_once ('includes/header.php');
       <div class="carousel-caption d-md-block text-primary">
         <h2 style="text-shadow: 2px 2px skyblue;">(IX To XII)</h2>
         <p class="fs-4 fw-bold">Let's Start your Educaion. Enrollment is Now open for 2021-2022.</p>
-        <button type="button" class="btn btn-primary btn-lg">Sign Up Today</button>
+      <button type="button" class="btn btn-primary btn-lg"><a href="register1.php" class="text-light" style="text-decoration: none;"> Sign Up Today</a></button>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
@@ -58,7 +58,7 @@ require_once ('includes/header.php');
       <div class="carousel-caption d-md-block text-light">
         <h2 style="text-shadow: 2px 2px skyblue;">Other's Courses</h2>
         <p class="fs-4 fw-bold">Let's Start your Carrear and Boost Your Skiils.Enrollment is Now open for New Batches.</p>
-        <button type="button" class="btn btn-primary btn-lg">Sign Up Today</button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="register1.php" class="text-light" style="text-decoration: none;"> Sign Up Today</a></button>
       </div>
     </div>
   </div>

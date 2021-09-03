@@ -9,9 +9,7 @@ $login_status ="";
    //session_start();
 
 ?>
-<script type="text/javascript">
-	alert "You are already Login";
-</script>
+
 <div class="container">
 		<div class="card border-primary mb-3">
 			<div class="row g-o">
@@ -25,15 +23,16 @@ $login_status ="";
             if( isset( $_GET['ls'] ) ) {
                 $login_status = $_GET['ls'];
 
-                $user_id = $_SESSION['id'];
-                $role_id= $_SESSION['role'];
+              
                 if ($login_status == 1) {
+					$user_id = $_SESSION['id'];
+					$role_id= $_SESSION['role'];
                 	if($role_id==2)
                 	{
                     echo "<p class='lead'>You are logged in as <span class='text-success text-uppercase'>",$_SESSION['name'], "</span></p>";
                     echo "<p><a class='btn btn-danger' href='logout.php'>LOG OUT</a></p><br>";
                     ?>  <script type="text/javascript">
-    				alert("Your Profile is Ready")
+    				alert("Your Profile is Ready");
   						</script>
                     		<?php
                    			 echo "<p>Your Profile is Ready So,<a class='btn btn-link' href='userprofile.php?id=$user_id'>Go To Your Profile</a></p><br>";
@@ -43,7 +42,7 @@ $login_status ="";
                     	 echo "<p class='lead'>You are logged in as <span class='text-success text-uppercase'>",$_SESSION['name'], "</span></p>";
                     echo "<p><a class='btn btn-danger' href='logout.php'>LOG OUT</a></p><br>";
                     ?>  <script type="text/javascript">
-   					 alert("Your Profile is Ready")
+   					 alert("Your Profile is Ready");
   						</script>
                     		<?php
                     echo "<p>Your Profile is Ready So,<a class='btn btn-link' href='employ.php?id=$user_id'>Go To Your Profile</a></p><br>";
