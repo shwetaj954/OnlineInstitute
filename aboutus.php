@@ -4,7 +4,7 @@ require_once('includes/forconn.php');
 ?>
 <div class="container">
 	<ul class="breadcrumb bg-light">
-		<li class="breadcrumb-item"><a href="home.php">Home</a></li>
+		<li class="breadcrumb-item"><a href="index.php">Home</a></li>
 		<li class="breadcrumb-item active" aria-current="page">About Us</li>
 	</ul>
 

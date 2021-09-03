@@ -63,7 +63,7 @@ if (isset($_SESSION['id'])) {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-primary align-items-center" aria-current="page" href="home.php">Home<i class="material-icons align-middle">home</i></a>
+          <a class="nav-link active text-primary align-items-center" aria-current="page" href="index.php">Home<i class="material-icons align-middle">home</i></a>
         </li>
          <li class="nav-item">
           <a class="nav-link active text-primary" href="aboutus.php">About Us<i class="material-icons align-middle">people</i></a>

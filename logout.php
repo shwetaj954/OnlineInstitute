@@ -15,7 +15,7 @@ include('includes/header.php');
 ?>
 <div class="container wrapper">
     <ul class="breadcrumb">
-        <li><a href="home.php">Home/</a></li>
+        <li><a href="index.php">Home/</a></li>
         <li class="active">Log Out</li>
     </ul> 
     <h1 style="text-align: center;color:red;font-size:50px;">Thank You! Now You Log Out</h1>
@@ -25,6 +25,6 @@ include('includes/header.php');
     	alert("Thank you! for visiting you. You are now logged out.");
     </script>
 <?php
-header( "Refresh:1; url=home.php", true, 303);
+header( "Refresh:1; url=index.php", true, 303);
 //header( "Refresh:3; url=home.php", true, 303);
 include('includes/footer.php'); ?>

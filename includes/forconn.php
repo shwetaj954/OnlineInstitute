@@ -25,7 +25,7 @@ else{
 </head>
 <body>
 <script type="text/javascript">
-	alert "Welcome My Institute";
+	alert ("Welcome My Institute");
 </script>
 </body>
 </html>
